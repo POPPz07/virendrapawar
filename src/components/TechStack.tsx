@@ -52,10 +52,10 @@ const TechStack = () => {
   };
 
   const microLines = [
-    "3D visualizers with Babylon.js and Three.js.",
-    "Live graph data powered by Neo4j.",
-    "ETL pipelines that structure data.",
-    "MLOps for scalable ML deployments.",
+    "Clarity over complexity — both in code and in architecture.",
+    "Big problems become manageable when broken into simple, buildable steps.",
+    "Clean logic, strong structure, and maintainability guide every system I build.",
+    "Every component serves a purpose — nothing exists without intent.",
   ];
 
   return (
