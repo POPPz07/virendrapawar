@@ -37,7 +37,7 @@ const Projects = () => {
       <div className="container mx-auto px-6">
         {/* Philosophy */}
         <div className="text-center mb-12 scroll-reveal">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 gradient-text">Project Philosophy</h2>
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 gradient-text">How I Approach Projects</h2>
           <div className="space-y-2 max-w-3xl mx-auto">
             <p className="text-xl text-foreground/90">I don't build random projects — I build solutions.</p>
             <p className="text-xl text-foreground/90">Every project here solves a real-world problem.</p>
