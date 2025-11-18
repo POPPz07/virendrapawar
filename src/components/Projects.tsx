@@ -8,26 +8,26 @@ const Projects = () => {
       title: "TruthLens — Misinformation Detection WebApp",
       subtitle: "Hack2Skill",
       tech: "React, FastAPI, Cloud Run, Gemini API, Vertex AI, Firebase",
-      description: "A dual-AI misinformation detection platform for real-time truth verification.",
+      description: "TruthLens is a full-stack misinformation detection system built on Google Cloud. The platform uses two AI pipelines: Gemini multimodal for broad content reasoning, and Vertex AI paired with Google Search for deeper fact-verification. User authentication and history tracking are handled through Firebase Auth and Firestore, while the backend APIs run fully serverless on Cloud Run for scale and reliability.",
       github: "https://github.com/POPPz07/misinformation-combating-tool",
       live: "https://flash-clover-476914-h6.web.app/workspace",
     },
     {
       title: "Code Vulnerability Detection System",
       tech: "Python, scikit-learn, AST Parsing",
-      description: "Secure code is built on understanding, not assumptions.",
+      description: "A scalable, offline-friendly static analysis tool designed to detect insecure code patterns. The system uses AST-based preprocessing to break down source files and analyze structure, combined with local ML models for classification — ensuring the tool works even in air-gapped or confidential environments without relying on external APIs.",
       github: "https://github.com/POPPz07/Code-vulnerability-and-assessment",
     },
     {
       title: "Hybrid Movie Recommendation System",
       tech: "React, Flask, MongoDB Atlas, scikit-learn",
-      description: "A hybrid recommendation engine using TF-IDF and SVD.",
+      description: "A hybrid movie recommender that blends content-based filtering (TF-IDF + cosine similarity) with collaborative filtering (SVD). The system runs through automated pipelines and exposes a simple, reliable REST API that powers the React frontend, delivering fast, personalized movie suggestions from real-world datasets.",
       github: "https://github.com/POPPz07/movie-recommendation-system",
     },
     {
       title: "E-commerce Aggregator Web App",
       tech: "Flask, BeautifulSoup, SQLite",
-      description: "ETL-powered multi-platform product aggregator with clean REST APIs.",
+      description: "A data aggregation platform that pulls product information from multiple sources using custom ETL workflows and BeautifulSoup-based scraping. The backend exposes clean REST APIs for search and product browsing, while the pipeline handles preprocessing, deduplication, and structured storage in SQLite to maintain fast, queryable datasets.",
       github: "https://github.com/POPPz07/E-commerce-aggregator",
     },
   ];
@@ -39,9 +39,9 @@ const Projects = () => {
         <div className="text-center mb-12 scroll-reveal">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 gradient-text">Project Philosophy</h2>
           <div className="space-y-2 max-w-3xl mx-auto">
-            <p className="text-xl text-foreground/90 italic">"I don't build random projects — I build solutions."</p>
-            <p className="text-xl text-foreground/90 italic">"Every project here solves a real-world problem."</p>
-            <p className="text-xl text-foreground/90 italic">"Everything I create has purpose, clarity, and impact."</p>
+            <p className="text-xl text-foreground/90">I don't build random projects — I build solutions.</p>
+            <p className="text-xl text-foreground/90">Every project here solves a real-world problem.</p>
+            <p className="text-xl text-foreground/90">Everything I create has purpose, clarity, and impact.</p>
           </div>
         </div>
 

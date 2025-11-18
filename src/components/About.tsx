@@ -19,13 +19,6 @@ const About = () => {
             </p>
           </div>
 
-          {/* Tech Philosophy */}
-          <div className="glass-card rounded-2xl p-8 hover-lift scroll-reveal">
-            <h2 className="text-3xl font-bold mb-6 gradient-text">Tech Philosophy</h2>
-            <p className="text-lg text-foreground/90 leading-relaxed">
-              I believe in building systems that are clean, understandable, and easy to maintain.
-            </p>
-          </div>
         </div>
       </div>
     </section>

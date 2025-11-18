@@ -1,23 +1,9 @@
-import { useEffect, useState } from "react";
+
 import { Button } from "@/components/ui/button";
 import { Github, Linkedin, Mail, Download } from "lucide-react";
 import profileImage from "@/assets/profile.jpg";
 
 const Hero = () => {
-  const [currentLine, setCurrentLine] = useState(0);
-  
-  const rotatingLines = [
-    "I don't build projects for the sake of building.",
-    "Every system I build solves a real problem.",
-    "Innovation only matters when it is useful.",
-  ];
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentLine((prev) => (prev + 1) % rotatingLines.length);
-    }, 3000);
-    return () => clearInterval(interval);
-  }, []);
 
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
@@ -54,13 +40,6 @@ const Hero = () => {
               </p>
               <p className="text-lg text-foreground/80 max-w-2xl">
                 Engineering reliable APIs, intelligent ML systems, and scalable cloud-ready applications.
-              </p>
-            </div>
-
-            {/* Rotating micro-lines */}
-            <div className="h-16 flex items-center">
-              <p className="text-primary font-medium italic transition-all duration-500">
-                "{rotatingLines[currentLine]}"
               </p>
             </div>
 
