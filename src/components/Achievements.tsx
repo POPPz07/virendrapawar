@@ -8,9 +8,9 @@ const Achievements = () => {
       title: "NetElixir AIgnition Hackathon",
       subtitle: "Top 10 Nationwide",
       points: [
-        "Built ML-based media investment optimizer for e-commerce.",
-        "Cleared multi-stage ML and strategy rounds.",
-        "Ranked among top teams nationwide.",
+        "First major technical hackathon — strong performance from the beginning.",
+        "Built an ML-based media investment optimizer using Google Cloud credits.",
+        "Learned marketing-focused ML and multi-stage evaluation strategies.",
       ],
     },
     {
@@ -18,9 +18,9 @@ const Achievements = () => {
       title: "Technosphinx Ideathon",
       subtitle: "1st Place Winner",
       points: [
-        "Designed a complete idea on financial gamification in under 2 hours.",
-        "Rapid research, structured solution, and strong presentation.",
-        "Secured 1st place against multiple teams.",
+        "On-the-spot challenge: topic revealed at start, had 2 hours to research, ideate, design workflows, and present.",
+        "Practiced rapid structured thinking and clear communication under pressure.",
+        "Won 1st place among competing teams.",
       ],
     },
     {
@@ -28,29 +28,29 @@ const Achievements = () => {
       title: "Hack2Skill Hackathon",
       subtitle: "Semi-Finalist",
       points: [
-        "Built TruthLens misinformation detection platform.",
-        "Worked across frontend, backend, API, and AI logic.",
-        "Advanced to semi-finals.",
+        "Built TruthLens misinformation detection system using Cloud Run, Firebase, Firestore, Gemini + Vertex AI.",
+        "Learned practical multimodal AI workflows, scalable serverless deployment, and cloud architecture.",
+        "Advanced to the semi-final round.",
       ],
     },
     {
       date: "Aug 2025 – Oct 2025",
       title: "Atomberg AtomQuest 2025",
-      subtitle: "Semi-Finalist",
+      subtitle: "Semi-Finalist — Top 100 in India",
       points: [
-        "Built Vacuum Robot Controller UI using HTML and JS for ESP8266.",
-        "Enabled manual control, auto mode, and status monitoring.",
-        "Selected in India's Top 100 teams.",
+        "First exposure to hardware–software integrated development.",
+        "Built UI for a vacuum robot controller and understood real embedded-software interaction.",
+        "Learned component integration, robotics workflows, and collaborating with hardware teams.",
       ],
     },
     {
       date: "Sept 2025",
       title: "Smart India Hackathon",
-      subtitle: "Internal — Top 10",
+      subtitle: "Top 10 Internal Selection",
       points: [
-        "Developed 'Yatri Suraksha,' a tourist safety and emergency system.",
-        "Designed alerting, reporting, and authority workflow designs.",
-        "Ranked among top 10 in the internal round.",
+        "24-hour onsite hackathon — continuous iteration under time pressure.",
+        "Designed alerting, reporting, emergency-response logic for 'Yatri Suraksha.'",
+        "Learned teamwork under fatigue, role clarity, and execution discipline.",
       ],
     },
   ];

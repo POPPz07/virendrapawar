@@ -36,7 +36,7 @@ const Hero = () => {
                 <span className="gradient-text">Virendra Pawar</span>
               </h1>
               <p className="text-xl md:text-2xl text-muted-foreground">
-                Full-Stack Developer • ML/AI Engineer • Cloud/DevOps (Basics)
+                Full-Stack Developer • AI/ML Engineer • Cloud/DevOps (Basics)
               </p>
               <p className="text-lg text-foreground/80 max-w-2xl">
                 Engineering reliable APIs, intelligent ML systems, and scalable cloud-ready applications.
@@ -56,7 +56,7 @@ const Hero = () => {
                 size="lg"
                 variant="outline"
                 onClick={() => window.open("https://drive.google.com/uc?export=download&id=1RU8Mhqfx1sKfGlkhI3eGrnltivNYGmAq", "_blank")}
-                className="border-primary/50 hover:bg-primary/10 hover:border-primary transition-all"
+                className="border-primary/50 hover:bg-primary/20 hover:border-primary transition-all"
               >
                 <Download className="mr-2 h-5 w-5" />
                 Download Resume
