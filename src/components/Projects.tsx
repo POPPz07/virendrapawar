@@ -94,7 +94,7 @@ const Projects = () => {
                       size="sm"
                       variant="outline"
                       onClick={() => window.open(project.github, "_blank")}
-                      className="border-primary/50 hover:bg-primary/10 hover:border-primary transition-all"
+                      className="border-primary/50 hover:bg-primary/10 hover:border-primary hover:text-foreground transition-all"
                     >
                       <Github className="h-4 w-4 mr-2" />
                       GitHub
@@ -104,7 +104,7 @@ const Projects = () => {
                         size="sm"
                         variant="outline"
                         onClick={() => window.open(project.live, "_blank")}
-                        className="border-secondary/50 hover:bg-secondary/10 hover:border-secondary transition-all"
+                        className="border-secondary/50 hover:bg-secondary/10 hover:border-secondary hover:text-foreground transition-all"
                       >
                         <ExternalLink className="h-4 w-4 mr-2" />
                         Live Demo
