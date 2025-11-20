@@ -55,12 +55,12 @@ const Experience = () => {
                 <div className="grid md:grid-cols-2 gap-4">
                   <div className="space-y-2">
                     <p className="text-foreground/80"><span className="text-primary font-semibold">Consistency</span> — I build reliable systems.</p>
-                    <p className="text-foreground/80"><span className="text-secondary font-semibold">Communication</span> — I simplify complex problems.</p>
-                    <p className="text-foreground/80"><span className="text-accent font-semibold">Ownership</span> — I take responsibility end-to-end.</p>
+                    <p className="text-foreground/80"><span className="text-primary font-semibold">Communication</span> — I simplify complex problems.</p>
+                    <p className="text-foreground/80"><span className="text-primary font-semibold">Ownership</span> — I take responsibility end-to-end.</p>
                   </div>
                   <div className="space-y-2">
                     <p className="text-foreground/80"><span className="text-primary font-semibold">Execution</span> — I work well under pressure.</p>
-                    <p className="text-foreground/80"><span className="text-secondary font-semibold">Collaboration</span> — I keep teams aligned.</p>
+                    <p className="text-foreground/80"><span className="text-primary font-semibold">Collaboration</span> — I keep teams aligned.</p>
                   </div>
                 </div>
               </div>
@@ -75,6 +75,9 @@ const Experience = () => {
               </div>
               <div className="space-y-4 flex-grow">
                 <h3 className="text-2xl font-bold text-foreground">College Journey</h3>
+                <p className="text-foreground/80">
+                  <span className="font-semibold text-foreground">Computer Engineering (2022–2026)</span>
+                </p>
                 <p className="text-foreground/80">
                   Strong foundations in computer fundamentals, data structures, algorithms, and system design. Balanced academics with projects, hackathons, internships, and club engagement.
                 </p>

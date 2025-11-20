@@ -111,7 +111,7 @@ const TechStack = () => {
         <div className="grid md:grid-cols-2 gap-4 mt-12 max-w-4xl mx-auto">
           {microLines.map((line, index) => (
             <div key={index} className="glass-card rounded-lg p-4 scroll-reveal" style={{ animationDelay: `${index * 0.1}s` }}>
-              <p className="text-foreground/80 text-sm italic">"{line}"</p>
+              <p className="text-foreground/80 text-sm italic">{line}</p>
             </div>
           ))}
         </div>

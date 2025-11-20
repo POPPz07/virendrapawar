@@ -8,26 +8,43 @@ const Projects = () => {
       title: "TruthLens — Misinformation Detection WebApp",
       subtitle: "Hack2Skill",
       tech: "React, FastAPI, Cloud Run, Gemini API, Vertex AI, Firebase",
-      description: "TruthLens is a full-stack misinformation detection system built on Google Cloud. The platform uses two AI pipelines: Gemini multimodal for broad content reasoning, and Vertex AI paired with Google Search for deeper fact-verification. User authentication and history tracking are handled through Firebase Auth and Firestore, while the backend APIs run fully serverless on Cloud Run for scale and reliability.",
+      description: [
+        "Built during a Google-backed hackathon, this system uses Gemini for multimodal reasoning and Vertex AI + Google Search for deeper fact-verification.",
+        "Designed the workflow so users see both the verdict and supporting evidence from multiple trusted sources.",
+        "Implemented Firebase Auth, Firestore tracking, and deployed using Cloud Run and Firebase Hosting."
+      ],
       github: "https://github.com/POPPz07/misinformation-combating-tool",
       live: "https://flash-clover-476914-h6.web.app/workspace",
     },
     {
       title: "Code Vulnerability Detection System",
       tech: "Python, scikit-learn, AST Parsing",
-      description: "A scalable, offline-friendly static analysis tool designed to detect insecure code patterns. The system uses AST-based preprocessing to break down source files and analyze structure, combined with local ML models for classification — ensuring the tool works even in air-gapped or confidential environments without relying on external APIs.",
+      description: [
+        "Created to address inconsistent coding practices and the rise of vibe-coding.",
+        "Uses AST-based preprocessing and local ML models to detect insecure or low-quality code patterns without external APIs.",
+        "Designed the full architecture — preprocessing pipeline, ML logic, and the air-gapped deployment vision.",
+        "A complex, ongoing full-stack + ML project exploring static analysis and secure coding."
+      ],
       github: "https://github.com/POPPz07/Code-vulnerability-and-assessment",
     },
     {
       title: "Hybrid Movie Recommendation System",
       tech: "React, Flask, MongoDB Atlas, scikit-learn",
-      description: "A hybrid movie recommender that blends content-based filtering (TF-IDF + cosine similarity) with collaborative filtering (SVD). The system runs through automated pipelines and exposes a simple, reliable REST API that powers the React frontend, delivering fast, personalized movie suggestions from real-world datasets.",
+      description: [
+        "My first full-stack + ML project, built to solve my own problem of manually tracking and discovering movies.",
+        "Supports watchlists, history tracking, and hybrid recommendations using TF-IDF, cosine similarity, and SVD.",
+        "Runs through automated ML pipelines and exposes a clean REST API powering the React frontend."
+      ],
       github: "https://github.com/POPPz07/movie-recommendation-system",
     },
     {
       title: "E-commerce Aggregator Web App",
       tech: "Flask, BeautifulSoup, SQLite",
-      description: "A data aggregation platform that pulls product information from multiple sources using custom ETL workflows and BeautifulSoup-based scraping. The backend exposes clean REST APIs for search and product browsing, while the pipeline handles preprocessing, deduplication, and structured storage in SQLite to maintain fast, queryable datasets.",
+      description: [
+        "My first complete web app, solving the difficulty of comparing prices across multiple websites manually.",
+        "Scraped and aggregated product data through custom ETL pipelines and stored structured data in SQLite.",
+        "Built backend scraping logic, REST APIs, and a clean UI for instant comparison."
+      ],
       github: "https://github.com/POPPz07/E-commerce-aggregator",
     },
   ];
@@ -63,7 +80,14 @@ const Projects = () => {
                     {project.title}
                   </h4>
                   <p className="text-sm text-muted-foreground">{project.tech}</p>
-                  <p className="text-foreground/80">{project.description}</p>
+                  <ul className="space-y-2">
+                    {project.description.map((line, idx) => (
+                      <li key={idx} className="flex items-start gap-2">
+                        <span className="text-primary mt-1">•</span>
+                        <span className="text-foreground/80">{line}</span>
+                      </li>
+                    ))}
+                  </ul>
                   
                   <div className="flex gap-3 pt-2">
                     <Button
@@ -103,7 +127,7 @@ const Projects = () => {
             <Github className="h-5 w-5 mr-2" />
             github.com/POPPz07
           </Button>
-          <p className="text-sm text-muted-foreground mt-4 italic">"Every repo is a chapter in my growth."</p>
+          <p className="text-sm text-muted-foreground mt-4 italic">Every repo is a chapter in my growth.</p>
         </div>
       </div>
     </section>
