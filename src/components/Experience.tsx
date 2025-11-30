@@ -76,10 +76,15 @@ const Experience = () => {
               <div className="space-y-4 flex-grow">
                 <h3 className="text-2xl font-bold text-foreground">College Journey</h3>
                 <p className="text-foreground/80">
-                  <span className="font-semibold text-foreground">Marathwada Mitramandal’s College of Engineering, Savitribai Phule Pune University (2022–2026)</span>
+                  <p className="font-semibold text-foreground">
+                      Marathwada Mitramandal’s College of Engineering, Pune
+                    </p>
+                    <p className="text-secondary font-medium">
+                      Savitribai Phule Pune University (2022–2026)
+                    </p>
                 </p>
                 <p className="text-foreground/80">
-                  Currently pursuing final-year <span className="underline decoration-primary decoration-2 underline-offset-4 font-semibold"> computer engineering </span>  
+                  Currently pursuing final-year <span className="px-1.5 py-0.5 rounded-md bg-primary/10 text-primary font-semibold"> Computer Engineering </span>  
                   with strong foundations in computer fundamentals, data structures, algorithms, and system design. Balanced academics with projects, hackathons, internships, and club engagement.
                 </p>
                 
