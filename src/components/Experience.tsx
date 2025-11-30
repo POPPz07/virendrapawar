@@ -79,7 +79,8 @@ const Experience = () => {
                   <span className="font-semibold text-foreground">Marathwada Mitramandal’s College of Engineering, Savitribai Phule Pune University (2022–2026)</span>
                 </p>
                 <p className="text-foreground/80">
-                  Currently pursuing final-year computer engineering with strong foundations in computer fundamentals, data structures, algorithms, and system design. Balanced academics with projects, hackathons, internships, and club engagement.
+                  Currently pursuing final-year <span className="underline decoration-primary decoration-2 underline-offset-4 font-semibold"> computer engineering </span>  
+                  with strong foundations in computer fundamentals, data structures, algorithms, and system design. Balanced academics with projects, hackathons, internships, and club engagement.
                 </p>
                 
                 <div className="mt-6">
