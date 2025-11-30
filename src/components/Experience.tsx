@@ -79,7 +79,7 @@ const Experience = () => {
                   <p className="font-semibold text-foreground">
                       Marathwada Mitramandal’s College of Engineering, Pune
                     </p>
-                    <p className="text-secondary font-medium">
+                    <p className="font-semibold text-foreground">
                       Savitribai Phule Pune University (2022–2026)
                     </p>
                 </p>
