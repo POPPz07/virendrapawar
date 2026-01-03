@@ -74,7 +74,7 @@ const Contact = () => {
             <Button
               size="icon"
               variant="outline"
-              onClick={() => window.open("https://linkedin.com", "_blank")}
+              onClick={() => window.open("https://www.linkedin.com/in/virendra-pawar-826284293", "_blank")}
               className="border-primary/50 hover:bg-primary/10 hover:border-primary transition-all"
             >
               <Linkedin className="h-5 w-5" />
