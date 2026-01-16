@@ -9,7 +9,7 @@ const Achievements = () => {
       subtitle: "Top 10 Nationwide",
       points: [
         "First major technical hackathon — strong performance from the beginning.",
-        "Built an ML-based media investment optimizer using Google Cloud credits.",
+        "Built an ML-based media investment optimizer using Random Forest Regression.",
         "Learned marketing-focused ML and multi-stage evaluation strategies.",
       ],
     },
