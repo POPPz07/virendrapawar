@@ -53,6 +53,17 @@ const Achievements = () => {
         "Learned teamwork under fatigue, role clarity, and execution discipline.",
       ],
     },
+    {
+      date: "Jan 2026",
+      title: "CyberMeru AI Innovation Hackathon",
+      subtitle: "Runner-Up",
+      points: [
+        "Built core modules for an AI-based face proctoring and speech analysis system aligned with CyberMeru’s in-house product requirements.",
+        "Designed a modular, partially working prototype within a 24-hour hackathon, balancing technical feasibility with time constraints.",
+        "Proposed practical product-level enhancements and evaluation metrics, securing the Runner-Up position and a 10k prize.",
+      ],
+    },
+
   ];
 
   return (
