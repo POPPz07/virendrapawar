@@ -76,7 +76,7 @@ const Hero = () => {
               <Button
                 size="icon"
                 variant="ghost"
-                onClick={() => window.open("https://linkedin.com", "_blank")}
+                onClick={() => window.open("https://www.linkedin.com/in/virendra-pawar-826284293", "_blank")}
                 className="hover:bg-primary/10 hover:text-primary transition-all"
               >
                 <Linkedin className="h-5 w-5" />
