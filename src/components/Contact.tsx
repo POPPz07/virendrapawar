@@ -66,7 +66,7 @@ const Contact = () => {
             <Button
               size="icon"
               variant="outline"
-              onClick={() => window.location.href = "mailto:virendra@example.com"}
+              onClick={() => window.location.href = "mailto:virendrapawar1402@gmail.com"}
               className="border-primary/50 hover:bg-primary/10 hover:border-primary transition-all"
             >
               <Mail className="h-5 w-5" />
