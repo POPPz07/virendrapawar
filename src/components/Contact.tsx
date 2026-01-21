@@ -122,8 +122,12 @@ const Contact = () => {
               size="icon"
               variant="outline"
               onClick={() =>
-                (window.location.href = "mailto:virendrapawar1402@gmail.com")
+                window.open(
+                  "https://mail.google.com/mail/?view=cm&fs=1&to=virendrapawar1402@gmail.com",
+                  "_blank"
+                )
               }
+
             >
               <Mail className="h-5 w-5" />
             </Button>
