@@ -18,7 +18,13 @@ const Footer = () => {
             <Button
               size="icon"
               variant="ghost"
-              onClick={() => window.location.href = "mailto:virendrapawar1402@gmail.com"}
+              onClick={() =>
+                window.open(
+                  "https://mail.google.com/mail/?view=cm&fs=1&to=virendrapawar1402@gmail.com",
+                  "_blank"
+                )
+              }
+
               className="hover:bg-primary/10 hover:text-primary transition-all"
             >
               <Mail className="h-5 w-5" />
