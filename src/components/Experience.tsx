@@ -44,6 +44,43 @@ const Experience = () => {
             </div>
           </Card>
 
+          {/* Ongoing Internship */}
+          <Card className="glass-card rounded-2xl p-8 hover-lift scroll-reveal border-border/50">
+            <div className="flex items-start gap-6">
+              <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary to-accent flex items-center justify-center flex-shrink-0">
+                <Briefcase className="h-7 w-7 text-white" />
+              </div>
+              <div className="space-y-4 flex-grow">
+                <div>
+                  <h3 className="text-2xl font-bold text-foreground">Data Operations Intern</h3>
+                  <p className="text-secondary font-medium">MRO Corp (US-based Healthcare)</p>
+                  <p className="text-sm text-muted-foreground">Apr 2025 – Present</p>
+                </div>
+                <ul className="space-y-2">
+                  <li className="flex items-start gap-2">
+                    <span className="text-primary mt-1">•</span>
+                    <span className="text-foreground/80">
+                      Working on an internal QA auditing platform to improve accuracy and consistency of large-scale operational logging.
+                    </span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-primary mt-1">•</span>
+                    <span className="text-foreground/80">
+                      Automating request workflows including assignments, escalations, and audit trails to streamline review processes.
+                    </span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-primary mt-1">•</span>
+                    <span className="text-foreground/80">
+                      Building maintainable backend logic and clean role-based interfaces with a focus on scalability and long-term reliability.
+                    </span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </Card>
+
+
           {/* What I Bring */}
           <Card className="glass-card rounded-2xl p-8 hover-lift scroll-reveal border-border/50">
             <div className="flex items-start gap-6">
