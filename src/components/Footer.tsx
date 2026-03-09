@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="container mx-auto px-6">
         <div className="text-center space-y-4">
           <p className="text-sm text-muted-foreground">
-            © 2025 Virendra Pawar. All rights reserved.
+            © 2026 Virendra Pawar. All rights reserved.
           </p>
           <p className="text-sm text-foreground/80">
             Portfolio crafted with precision and purpose.
