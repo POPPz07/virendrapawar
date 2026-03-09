@@ -55,7 +55,7 @@ const Hero = () => {
               <Button
                 size="lg"
                 variant="outline"
-                onClick={() => window.open("https://drive.google.com/uc?export=download&id=1RU8Mhqfx1sKfGlkhI3eGrnltivNYGmAq", "_blank")}
+                onClick={() => window.open("https://drive.google.com/file/d/1alvnZ0AhVyX6wptRl3l1kQHslpoqiNlz/view?usp=sharing", "_blank")}
                 className="border-primary/50 hover:bg-primary/20 hover:border-primary hover:text-foreground transition-all"
               >
                 <Download className="mr-2 h-5 w-5" />
