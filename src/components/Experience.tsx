@@ -19,7 +19,7 @@ const Experience = () => {
               <div className="space-y-4 flex-grow">
                 <div>
                   <h3 className="text-2xl font-bold text-foreground">Trainee Software Engineer</h3>
-                  <p className="text-secondary font-medium">Equations Work</p>
+                  <p className="text-secondary font-medium">Equations Work IT services Pvt. Ltd.</p>
                   <p className="text-sm text-muted-foreground">Jan–Mar 2025</p>
                 </div>
                 <ul className="space-y-2">
