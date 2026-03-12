@@ -46,7 +46,7 @@ const Achievements = () => {
     {
       date: "Sept 2025",
       title: "Smart India Hackathon",
-      subtitle: "Top 10 Internal Selection",
+      subtitle: "Top 10 College level",
       points: [
         "24-hour onsite hackathon — continuous iteration under time pressure.",
         "Designed alerting, reporting, emergency-response logic for 'Yatri Suraksha.'",
