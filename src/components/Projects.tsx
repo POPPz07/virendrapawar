@@ -14,7 +14,7 @@ const Projects = () => {
         "Implemented Firebase Auth, Firestore tracking, and deployed using Cloud Run and Firebase Hosting."
       ],
       github: "https://github.com/POPPz07/misinformation-combating-tool",
-      live: "https://flash-clover-476914-h6.web.app/workspace",
+      live: "https://misinformation-74574.web.app/",
     },
     {
       title: "Code Vulnerability Detection System",
