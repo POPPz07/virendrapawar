@@ -71,7 +71,7 @@ const Navbar = () => {
           </div>
 
           <Button
-            onClick={() => window.open("https://drive.google.com/file/d/1alvnZ0AhVyX6wptRl3l1kQHslpoqiNlz/view?usp=sharing", "_blank")}
+            onClick={() => window.open("https://drive.google.com/file/d/14CUXm1RHCcirBOWMRs87PuMRRhN5tx9W/view?usp=sharing", "_blank")}
             variant="outline"
             className="border-primary/50 hover:bg-primary/10 hover:border-primary transition-all"
           >
