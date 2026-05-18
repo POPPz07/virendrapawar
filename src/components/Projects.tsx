@@ -18,6 +18,7 @@ const Projects = () => {
     },
     {
       title: "Code Vulnerability Detection System",
+      subtitle: "Personal Project",
       tech: "Python, scikit-learn, AST Parsing",
       description: [
         "Created to address inconsistent coding practices and the rise of vibe-coding.",
@@ -29,6 +30,7 @@ const Projects = () => {
     },
     {
       title: "Hybrid Movie Recommendation System",
+      subtitle: "Personal Project",
       tech: "React, Flask, MongoDB Atlas, scikit-learn",
       description: [
         "My first full-stack + ML project, built to solve my own problem of manually tracking and discovering movies.",
