@@ -38,14 +38,15 @@ const Projects = () => {
       github: "https://github.com/POPPz07/movie-recommendation-system",
     },
     {
-      title: "E-commerce Aggregator Web App",
-      tech: "Flask, BeautifulSoup, SQLite",
+      title: "AI-Powered Resume Validator & Candidate Verification System",
+      subtitle: "Industry-Sponsored Final Year Project",
+      tech: "Python, FastAPI, MongoDB, CodeBERT, BGE",
       description: [
-        "My first complete web app, solving the difficulty of comparing prices across multiple websites manually.",
-        "Scraped and aggregated product data through custom ETL pipelines and stored structured data in SQLite.",
-        "Built backend scraping logic, REST APIs, and a clean UI for instant comparison."
+        "Built an async GitHub verification pipeline using CodeBERT and BGE embeddings to detect plagiarism, analyze commit behavior, and generate an explainable 0–100 authenticity score.",
+        "Designed a parallel multi-source verification system (GitHub, LinkedIn, Web) with unified credibility scoring and structured MongoDB outputs.",
+        "Improved system stability using controlled API concurrency, limited deep repo analysis, embedding caching, and strict timeouts for production-ready execution."
       ],
-      github: "https://github.com/POPPz07/E-commerce-aggregator",
+      github: "https://github.com/Inward17/ResumeAI",
     },
   ];
 
