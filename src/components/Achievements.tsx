@@ -58,9 +58,19 @@ const Achievements = () => {
       title: "CyberMeru AI Innovation Hackathon",
       subtitle: "Runner-Up",
       points: [
-        "Built core modules for an AI-based face proctoring and speech analysis system aligned with CyberMeru’s in-house product requirements.",
+        "Built core modules for an AI-based face proctoring and speech analysis system aligned with CyberMeru's in-house product requirements.",
         "Designed a modular, partially working prototype within a 24-hour hackathon, balancing technical feasibility with time constraints.",
         "Proposed practical product-level enhancements and evaluation metrics, securing the Runner-Up position and a 10k prize.",
+      ],
+    },
+    {
+      date: "Apr 2026",
+      title: "TechSpark 2026 – State Level Technical Symposium",
+      subtitle: "Best Paper Award Winner – Computational Technologies Track",
+      points: [
+        "Presented research paper titled \"A Data Driven Approach to Resume Validation and Candidate Credibility Assessment.\"",
+        "Worked on candidate verification workflows, credibility analysis concepts, and AI-driven validation approaches.",
+        "Learned research presentation, technical paper structuring, and presenting ideas effectively on a state-level platform.",
       ],
     },
 
